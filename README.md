@@ -10,6 +10,7 @@ cscript //NoLogo scripts/precommit.vbs ''"$repoDir"''
 
 Возможности: 
 - выполняется распаковка файлов erf,epf.
+
 Планируется: 
 - поддержка распаковки cfe.
 
