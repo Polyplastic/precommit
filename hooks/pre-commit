@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "Start hooks before commit to unpack erf, epf"
+repoDir="$(pwd)"
+# Включаем режим, в котором любая ошибка сразу же завершит весь скрипт ошибкой.
+set -e
+cscript //NoLogo scripts/precommit.vbs ''"$repoDir"''
